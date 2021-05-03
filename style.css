@@ -13,8 +13,45 @@
     margin: auto;
 }
 
-#catalog .header-block h1{
-    margin-top: 35px;
+#catalog .inheader {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-left: 123px;
+}
+
+#catalog .header {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#catalog .head {
+    text-decoration: none;
+    color: #000;
+    margin-right: 30px;
+}
+
+#catalog header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 33px;
+}
+
+#catalog .nav {
+    margin-top: 28px;
+    margin-right: 122px;
+    display: flex;
+    align-items: center;
+}
+
+#catalog .img {
+    margin-left: 40px;
+}
+
+#catalog .header-block h2{
+
     font-size: 64px;
     color: #2D2D2D;
 }
@@ -44,13 +81,13 @@
     max-width: 937px;
 }
 
-#catalog .choose-flower h2{
+#catalog .choose-flower h3{
     font-size: 32px;
     margin-top: 12px;
     margin-bottom: 20px;
 }
 
-#catalog .flower-length h2{
+#catalog .flower-length h3{
     margin-top: 15px;
     margin-bottom: 20px;
     font-size: 32px;
@@ -95,10 +132,58 @@
     color: #000000;
     margin-right: 20px;
     font-size: 32px;
+    font-family: 'Roboto', sans-serif;
 }
 #catalog .footer-block{
     max-width: 260px; 
     margin: auto;
     margin-top: 80px;
     margin-bottom: 174px;
+}
+
+#catalog footer{
+    background-color: #FF9255;
+    display: flex;
+    justify-content: space-between;
+}
+
+#catalog .footer-h5{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding-top: 80px;
+    margin-left: 123px;
+    color: rgba(45, 45, 45, 1);
+}
+
+#catalog .footer-p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 549px;
+    margin-left: 124px;
+    margin-top: 15px;
+}
+
+#catalog .footer-nav-a{
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 30px;
+}
+
+#catalog .contacts{
+    padding-bottom: 124px;
+}
+
+#catalog .navigation{
+    margin-right: 122px;
+    margin-top: 89px;
+}
+
+@media (max-widht: 1446px) {
+
 }
