@@ -4,11 +4,20 @@
     box-sizing: border-box;
 }
 
+#catalog img{
+    max-width: 100%;
+}
+
 #catalog {
     background-color: #FFF0E8;
 }
 
 #catalog .container{
+    max-width: 1355px;
+    margin: auto;
+}
+
+#catalog .container-footer{
     max-width: 1355px;
     margin: auto;
 }
@@ -115,16 +124,16 @@
     bottom: 32px;
     left: 30px;
     width: 100%;
+    font-size: 32px;
 }
 
 #catalog .commit h4{
-    font-size: 32px;
+
     color: #FFF;
 }
 
 #catalog .commit p{
     color: #FF9255;
-    font-size: 32px;
 }
 
 #catalog .footer-block a{
@@ -143,16 +152,13 @@
 
 #catalog footer{
     background-color: #FF9255;
-    display: flex;
-    justify-content: space-between;
 }
 
 #catalog .footer-h5{
     font-size: 36px;
     font-weight: 400;
     font-family: 'IBM Plex Sans', sans-serif;
-    padding-top: 80px;
-    margin-left: 123px;
+    margin-top: 80px;
     color: rgba(45, 45, 45, 1);
 }
 
@@ -162,7 +168,6 @@
     font-weight: 400;
     color: rgba(255, 255, 255, 0.8);
     max-width: 549px;
-    margin-left: 124px;
     margin-top: 15px;
 }
 
@@ -175,15 +180,70 @@
     margin-left: 30px;
 }
 
+#catalog .footer-nav {
+    margin-top: 89px;
+}
+
 #catalog .contacts{
     padding-bottom: 124px;
 }
 
-#catalog .navigation{
-    margin-right: 122px;
-    margin-top: 89px;
+#catalog nav{
+    display: flex;
+    justify-content: space-between;
 }
 
-@media (max-widht: 1446px) {
+@media (max-width: 1440px) {
+    #catalog .container{
+        max-width: 85%;
+    }
 
+    #catalog .container-footer{
+        max-width: 85%;
+    } 
+
+    #catalog .all-flowers a{
+        width:  24%;
+        flex-wrap: wrap;
+        margin: auto;
+        
+    }
+
+    #catalog .commit{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1160px) {
+    #catalog .all-flowers a{
+        width:  26%;
+        flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+    #catalog .commit{
+        font-size: 20px;
+    }
+
+    #catalog .footer-h5{
+        font-size: 26px;
+    }
+
+    #catalog .footer-nav-a{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    #catalog .footer-p {
+        max-width: 400px;
+        font-size: 20px;
+    }
+
+    /* #catalog .container{
+        max-width: 85%;
+    }
+
+    #catalog .container-footer{
+        max-width: 85%;
+    }  */
 }
