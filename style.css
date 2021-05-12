@@ -26,8 +26,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 36px;
-    margin-top: 45px;
-    margin-left: 123px;
+
 }
 
 #catalog .header {
@@ -46,11 +45,10 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 33px;
+    margin-top: 45px;
 }
 
 #catalog .nav {
-    margin-top: 28px;
-    margin-right: 122px;
     display: flex;
     align-items: center;
 }
@@ -60,7 +58,6 @@
 }
 
 #catalog .header-block h2{
-
     font-size: 64px;
     color: #2D2D2D;
 }
@@ -123,7 +120,6 @@
     position: absolute;
     bottom: 32px;
     left: 30px;
-    width: 100%;
     font-size: 32px;
 }
 
@@ -206,6 +202,7 @@
         width:  24%;
         flex-wrap: wrap;
         margin: auto;
+        justify-content: space-between;
         
     }
 
@@ -217,12 +214,6 @@
 @media (max-width: 1160px) {
     #catalog .all-flowers a{
         width:  26%;
-        flex-wrap: wrap;
-    justify-content: space-between;
-    }
-
-    #catalog .commit{
-        font-size: 20px;
     }
 
     #catalog .footer-h5{
@@ -238,12 +229,45 @@
         max-width: 400px;
         font-size: 20px;
     }
+}
 
-    /* #catalog .container{
-        max-width: 85%;
+@media (max-width: 950px) {
+    #catalog .all-flowers a{
+        width:  40%;
     }
 
-    #catalog .container-footer{
-        max-width: 85%;
-    }  */
+    #catalog .commit{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 812px) {
+    #catalog nav{
+        display: block;
+    }
+
+    #catalog .contacts{
+        padding-bottom: 0;
+        padding-top: 30px;
+    }
+
+    #catalog .footer-h5{
+        margin-top: 0;
+    }
+
+    #catalog .footer-nav{
+        margin-top: 20px;
+        padding-bottom: 30px;
+    }
+    
+    #catalog .footer-nav-a{
+        margin-right: 30px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 712px) {
+    #catalog header{
+        display: block;
+    }
 }
