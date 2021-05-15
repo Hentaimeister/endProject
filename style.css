@@ -271,3 +271,15 @@
         display: block;
     }
 }
+
+@media (max-width: 532px) {
+    #catalog .all-flowers a{
+        width:  320px;
+    }
+
+    #catalog .footer-nav-a{
+        margin-right: 12px;
+    }
+}
+
+
