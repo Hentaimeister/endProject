@@ -1,173 +1,405 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-#catalog img{
-    max-width: 100%;
-}
-
-#catalog {
-    background-color: #FFF0E8;
-}
-
-#catalog .container{
-    max-width: 1355px;
-    margin: auto;
-}
-
-#catalog .container-footer{
-    max-width: 1355px;
-    margin: auto;
-}
-
-#catalog .inheader {
+.inheader {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 36px;
-
+    margin-top: 45px;
 }
 
-#catalog .header {
+.header {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
     font-size: 24px;
 }
 
-#catalog .head {
+.head {
     text-decoration: none;
     color: #000;
     margin-right: 30px;
 }
 
-#catalog header {
+header {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 33px;
-    margin-top: 45px;
+    padding-bottom: 28px;
 }
 
-#catalog .nav {
+.nav {
+    margin-top: 28px;
     display: flex;
     align-items: center;
 }
 
-#catalog .img {
+img {
+    max-width: 100%;
+}
+
+.img {
     margin-left: 40px;
 }
 
-#catalog .header-block h2{
-    font-size: 64px;
-    color: #2D2D2D;
+.catalog {
+    background-image: url(images/bigmain.png);
+    max-height: 600px;
 }
 
-#catalog .header-block a{
-    text-decoration: none;
-    padding: 8px 30px;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-right: 15px;
-    display: inline-block;
-    color: #000000;
-    margin-bottom: 15px;
-}
-
-#catalog .header-block a:hover{
-    background-color: #FF9255;
-    border: none;
-    padding: 9px 31px;
-}
-
-#catalog .header-block{
+h1 {
     font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    color: #fff;
+    max-width: 545px;
+    margin-left: 123px;
 }
 
-#catalog .choose-flower-a{
-    max-width: 937px;
-}
-
-#catalog .choose-flower h3{
-    font-size: 32px;
-    margin-top: 12px;
-    margin-bottom: 20px;
-}
-
-#catalog .flower-length h3{
+.p-catalog {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #fff;
+    max-width: 600px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-left: 123px;
     margin-top: 15px;
-    margin-bottom: 20px;
-    font-size: 32px;
+    padding-bottom: 42px;
 }
 
-#catalog main{
-    margin-top: 70px;
+.a-catalog {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #FF9255;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-right: 110px;
+    padding-left: 110px;
+    border-radius: 20px;
+    margin-right: 123px;
+    margin-left: 123px;
+    margin-top: 19px;
 }
 
-#catalog .all-flowers{
+.in-catalog {
+    padding-top: 134px;
+    padding-bottom: 146px;
+    display: block;
+}
+
+.properties {
+    padding-top: 55px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    padding-bottom: 80px;
+}
+
+.fresh-flowers {
+    margin-right: 82px;
+    max-width: 320px;
+    max-height: 413px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.fast-getting {
+    margin-right: 82px;
+    max-width: 320px;
+    max-height: 413px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding-top: 20px;
+}
+
+.fresh-flowers-p {
+    font-size: 36px;
+    font-weight: 400;
+    color: #2D2D2D;
+    max-width: 124px;
+    margin: auto;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: auto;
+    padding-bottom: 59px;
+}
+
+.fresh-flowers-img {
+    padding-top: 42px;
+    padding-bottom: 27px;
+    padding-right: 54px;
+    padding-left: 53px;
+}
+
+.fast-getting-p {
+    font-size: 36px;
+    font-weight: 400;
+    color: #2D2D2D;
+    max-width: 124px;
+    margin: auto;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: auto;
+    padding-bottom: 59px;
+}
+
+.fast-getting-img {
+    padding-top: 42px;
+    padding-bottom: 27px;
+    padding-right: 54px;
+    padding-left: 53px;
+}
+
+.nice-prices {
+    margin-right: 82px;
+    max-width: 320px;
+    max-height: 413px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.nice-prices-p {
+    font-size: 36px;
+    font-weight: 400;
+    color: #2D2D2D;
+    max-width: 124px;
+    margin: auto;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: auto;
+    padding-bottom: 59px;
+}
+
+.nice-prices-img {
+    padding-top: 42px;
+    padding-bottom: 27px;
+    padding-right: 54px;
+    padding-left: 53px;
+}
+
+body {
+    background-color: #FFF0E8;
+}
+
+.fresh-bouqet-h2 {
+    font-size: 64px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #2D2D2D;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.tamara {
+    margin-right: 25px;
+    background-image: url(images/tamaraboqett.png);
+    max-width: 320px;
+    max-height: 490px;
+}
+
+.variants {
+    display: flex;
+    justify-content: center;
+}
+
+.tamara-h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400px;
+    font-size: 32px;
+    color: #fff;
+    margin-top: 350px;
+    padding-left: 30px;
+    margin-right: 70px;
+    flex-wrap: nowrap;
+}
+
+.tamara-p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400px;
+    font-size: 32px;
+    color: #FF9255;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.variants {
+    padding-bottom: 155px;
+}
+
+.sales-h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    color: #2D2D2D;
+    text-align: center;
+    padding-bottom: 34px;
+}
+
+.tulips-order {
+    background-color: #fff;
+    border-radius: 20px;
+    display: block;
+    width: 30%;
+    padding-left: 35px;
+    padding-right: 53px;
+    padding-top: 81px;
+    padding-bottom: 81px;
+}
+
+.tulips {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tulips-img,
+.pink-roses-img {
+    width: 65%;
+}
+
+.tulips-order-p {
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.4);
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
-#catalog .all-flowers a{
+.tulips-order-h2 {
+    font-size: 64px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    line-height: 48px;
+    margin-top: 28px;
+}
+
+.tulips-order-h2-2 {
+    font-size: 48px;
+    font-weight: 400;
+    color: rgba(255, 146, 85, 1);
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 5px;
+    padding-bottom: 28px;
+}
+
+.tulips-order-a {
+    font-size: 36px;
+    font-weight: 400;
+    color: rgba(255, 146, 85, 1);
     text-decoration: none;
-    position: relative;
-    width: 25%;
-    margin-bottom: 25px;
+    border: 2px solid #FF9255;
+    border-radius: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    max-width: 100%;
 }
 
-#catalog .commit{
-    position: absolute;
-    bottom: 32px;
-    left: 30px;
-    font-size: 32px;
+.pink-roses {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
 }
 
-#catalog .commit h4{
-
-    color: #FFF;
+.pink-roses-order {
+    background-color: #fff;
+    border-radius: 20px;
+    display: block;
+    width: 30%;
+    padding-left: 35px;
+    padding-right: 53px;
+    padding-top: 81px;
+    padding-bottom: 81px;
 }
 
-#catalog .commit p{
-    color: #FF9255;
+.roses-order-p {
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.4);
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
-#catalog .footer-block a{
+.roses-order-h2 {
+    font-size: 64px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    line-height: 48px;
+    margin-top: 28px;
+}
+
+.roses-order-p-2 {
+    font-size: 48px;
+    font-weight: 400;
+    color: rgba(255, 146, 85, 1);
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 5px;
+    padding-bottom: 28px;
+}
+
+.roses-order-a {
+    font-size: 36px;
+    font-weight: 400;
+    color: rgba(255, 146, 85, 1);
     text-decoration: none;
-    color: #000000;
-    margin-right: 20px;
-    font-size: 32px;
-    font-family: 'Roboto', sans-serif;
+    border: 2px solid #FF9255;
+    border-radius: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 28px;
+    max-width: 100%;
 }
-#catalog .footer-block{
-    max-width: 260px; 
-    margin: auto;
+
+.bringing-h2 {
+    font-size: 64px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: rgba(45, 45, 45, 1);
+    text-align: center;
+    margin-bottom: 61px;
+}
+
+.bringing {
     margin-top: 80px;
-    margin-bottom: 174px;
+    padding-bottom: 114px;
 }
 
-#catalog footer{
+.in-bringing {
+    display: flex;
+    align-items: center;
+}
+
+.bringing-p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    max-width: 665px;
+    margin-left: 25px;
+}
+
+footer {
     background-color: #FF9255;
+    display: flex;
+    justify-content: space-between;
 }
 
-#catalog .footer-h5{
+.footer-h2 {
     font-size: 36px;
     font-weight: 400;
     font-family: 'IBM Plex Sans', sans-serif;
-    margin-top: 80px;
+    padding-top: 80px;
+    margin-left: 123px;
     color: rgba(45, 45, 45, 1);
 }
 
-#catalog .footer-p{
+.footer-p {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.8);
     max-width: 549px;
+    margin-left: 124px;
     margin-top: 15px;
 }
 
-#catalog .footer-nav-a{
+.footer-nav-a {
     text-decoration: none;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 24px;
@@ -176,110 +408,55 @@
     margin-left: 30px;
 }
 
-#catalog .footer-nav {
-    margin-top: 89px;
-}
-
-#catalog .contacts{
+.contacts {
     padding-bottom: 124px;
 }
 
-#catalog nav{
-    display: flex;
-    justify-content: space-between;
+.navigation {
+    margin-right: 122px;
+    margin-top: 89px;
 }
 
-@media (max-width: 1440px) {
-    #catalog .container{
-        max-width: 85%;
-    }
+.container {
+    max-width: 1355px;
+    margin: auto;
+}
 
-    #catalog .container-footer{
-        max-width: 85%;
-    } 
-
-    #catalog .all-flowers a{
-        width:  24%;
+@media(max-width: 1355px) {
+    .variants {
         flex-wrap: wrap;
-        margin: auto;
-        justify-content: space-between;
-        
     }
-
-    #catalog .commit{
-        font-size: 28px;
+    .tamara {
+        margin-bottom: 5px;
+    }
+    .bringing-p {
+        font-size: 27px;
     }
 }
 
-@media (max-width: 1160px) {
-    #catalog .all-flowers a{
-        width:  26%;
-    }
-
-    #catalog .footer-h5{
+@media(max-width: 1317px) {
+    .tulips-order-a {
         font-size: 26px;
     }
+}
 
-    #catalog .footer-nav-a{
-        font-size: 20px;
-        margin-left: 20px;
-    }
-
-    #catalog .footer-p {
-        max-width: 400px;
-        font-size: 20px;
+@media(max-width: 1275px) {
+    .tulipani,
+    .roses {
+        width: 90%;
     }
 }
 
-@media (max-width: 950px) {
-    #catalog .all-flowers a{
-        width:  40%;
-    }
-
-    #catalog .commit{
-        font-size: 25px;
+@media(max-width: 1135px) {
+    .tulips-order-h2,
+    .roses-order-h2 {
+        font-size: 42px;
     }
 }
 
-@media (max-width: 812px) {
-    #catalog nav{
-        display: block;
-    }
-
-    #catalog .contacts{
-        padding-bottom: 0;
-        padding-top: 30px;
-    }
-
-    #catalog .footer-h5{
-        margin-top: 0;
-    }
-
-    #catalog .footer-nav{
-        margin-top: 20px;
-        padding-bottom: 30px;
-    }
-    
-    #catalog .footer-nav-a{
-        margin-right: 30px;
-        margin-left: 0;
+@media(max-width: 768px) {
+    .roses-order-p-2,
+    .tulips-order-h2-2 {
+        font-size: 32px;
     }
 }
-
-@media (max-width: 712px) {
-    #catalog header{
-        display: block;
-    }
-}
-
-@media (max-width: 532px) {
-    #catalog .all-flowers a{
-        width:  320px;
-    }
-
-    #catalog .footer-nav-a{
-        margin-right: 12px;
-    }
-}
-
-
