@@ -156,6 +156,7 @@
     font-family: 'IBM Plex Sans', sans-serif;
     margin-top: 80px;
     color: rgba(45, 45, 45, 1);
+    text-decoration: none;
 }
 
 #catalog .footer-p{
