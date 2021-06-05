@@ -461,6 +461,278 @@ footer {
     }
 }
 
-@media(max-width: 576px){
-    
+@media(max-width: 1024px){
+    .tulips-order{
+        margin-right: 70px;
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+    .tulips-order-p{
+        font-size: 16px;
+    }
+    .tulips-order-h2{
+        font-size: 28px ;
+    }
+    .tulips-order-h2-2{
+        font-size: 24px;
+    }
+    .tulips-order-a{
+        font-size: 18px;
+        padding-right: 12px;
+        padding-left: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .pink-roses-order{
+        margin-right: 70px;
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+    .roses-order-p{
+        font-size: 16px;
+    }
+    .roses-order-h2{
+        font-size: 28px ;
+    }
+    .roses-order-p-2{
+        font-size: 24px;
+    }
+    .roses-order-a{
+        font-size: 18px;
+        padding-right: 12px;
+        padding-left: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+
+@media(max-width: 768px){
+    .fresh-flowers-p{
+        font-size: 26px;
+    }
+    .fast-getting-p{
+        font-size: 26px;
+    }
+    .nice-prices-p{
+        font-size: 26px;
+    }
+    .tulips-order-p{
+        font-size: 14px;
+    }
+    .tulips-order-h2{
+        font-size: 26px;
+        margin-top: 1px;
+    }
+    .tulips-order-h2-2{
+        font-size: 22px;
+    }
+    .tulips-order-a{
+        font-size: 16px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .tulips-order{
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .roses-order-p{
+        font-size: 14px;
+    }
+    .roses-order-h2{
+        font-size: 26px;
+        margin-top: 1px;
+    }
+    .roses-order-p-2{
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+    .roses-order-a{
+        font-size: 16px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+}
+
+@media(max-width:613px){
+    h1{
+        font-size: 62px;
+    }
+    .p-catalog{
+        font-size: 24px;
+    }
+    .nice-prices-img{
+        padding-top: 22px;
+        padding-right: 34px;
+        padding-bottom: 7px;
+        padding-left: 33px;
+    }
+    .nice-prices-p{
+        font-size: 24px;
+        padding-right: 15px;
+        padding-bottom: 30px;
+        padding-left: 5px;
+    }
+    .fast-getting-img{
+        padding-top: 22px;
+        padding-right: 34px;
+        padding-bottom: 7px;
+        padding-left: 33px;
+    }
+    .fast-getting-p{
+        font-size: 24px;
+        padding-right: 15px;
+        padding-bottom: 30px;
+        padding-left: 5px;
+    }
+    .fresh-flowers-img{
+        padding-top: 22px;
+        padding-right: 34px;
+        padding-bottom: 7px;
+        padding-left: 33px;
+    }
+    .fresh-flowers-p{
+        font-size: 24px;
+        padding-right: 15px;
+        padding-bottom: 30px;
+        padding-left: 5px;
+    }
+}
+
+@media(max-width: 425px){
+    .inheader{
+        font-size: 32px;
+    }
+    .head{
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    h1{
+        font-size: 48px;
+        margin-left: 40px;
+    }
+    .p-catalog{
+        margin-left: 40px;
+    }
+    .a-catalog{
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-left: 30px;
+        padding-bottom: 15px;
+    }
+    .fresh-flowers{
+        margin-right: 40px;
+    }
+    .fast-getting{
+        margin-right: 40px;
+    }
+    .tulips-order-p{
+        font-size: 10px;
+    }
+    .tulips-order-h2{
+        font-size: 20px;
+    }
+    .tulips-order-h2-2{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .roses-order-p{
+        font-size: 10px;
+    }
+    .roses-order-h2{
+        font-size: 20px;
+    }
+    .roses-order-p-2{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .tulips-order{
+        margin-right: 20px;
+    }
+    .pink-roses-order{
+        margin-right: 20px;
+    }
+    .footer-h2{
+        margin-left: 80px;
+    }
+    .footer-p{
+        margin-left: 80px;
+    }
+}
+
+@media(max-width: 375px){
+    .inheader{
+        font-size: 26px;
+    }
+    .img{
+        max-width: 36px;
+        max-height: 40px;
+        margin-right: 10px;
+    }
+    .a-catalog{
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+    h1{
+        margin-left: 20px;
+    }
+    .p-catalog{
+        margin-left: 20px;
+    }
+    .fresh-flowers-p, .fast-getting-p, .nice-prices-p{
+        font-size: 18px;
+    }
+    .tulips-order-h2-2{
+        padding-bottom: 20px;
+    }
+    .tulips-order-a{
+        margin-right: 80px;
+    }
+    .tulips-order-h2{
+        padding-right: 20px;
+    }
+    .footer-h2, .footer-p{
+        margin-left: 40px;
+    }
+}
+
+@media(max-width: 320px){
+    .inheader{
+        font-size: 20px;
+    }
+    .head{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 36px;
+    }
+    .a-catalog{
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .fresh-flowers-p, .fast-getting-p, .nice-prices-p{
+        font-size: 12px;
+    }
+    .fast-getting-img{
+        padding: 12px 24px 3px 23px;
+    }
+    .fresh-flowers-img{
+        padding: 12px 24px 3px 23px;
+    }
+    .footer-h2{
+        font-size: 26px;
+    }
+    .footer-p{
+        font-size: 18px;
+    }
 }

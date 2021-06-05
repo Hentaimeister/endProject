@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.inheader {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 45px;
+}
+
+.header {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.head {
+    text-decoration: none;
+    color: #000;
+    margin-right: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 28px;
+}
+
+.nav {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img {
+    margin-left: 40px;
+}
+
+body{
+    background-color: #FFF0E8;
+}
+
+.container{
+    max-width: 1355px;
+    margin: auto;
+}
+
+.way{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: rgba(45, 45, 45, 0.7);
+    font-weight: 400;
+}
+
+.bying{
+    margin-top: 64px;
+    display: flex;
+}
+
+.bying-order{
+    max-width: 667px;
+    max-height: 628px;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.bying-order-h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.bying-order-h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 52px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.bying-order-p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.bying-order-p-2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 45px;
+}
+
+.howmany{
+    max-width: 210px;
+    max-height: 50px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.number{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 7px 31px 2px 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.add{
+    font-size: 32px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration: none;
+    margin-top: 40px;
+    padding: 22px 80px 22px 80px;
+    background-color: rgba(255, 146, 85, 1);
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.may-like{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 120px;
+}
+
+.variants{
+    margin-top: 35px;
+    display: flex;
+}
+
+.bourbone, .french-rose, .memorylane, .dynasty{
+    max-width: 320px;
+    max-height: 490px;
+}
+
+.bourbon, .french-rose, .memorylane{
+    margin-right: 25px;
+}
+
+.bourbon{
+    background-image: url(images/bourbon.svg);
+    background-repeat: no-repeat;
+}
+
+.french-rose{
+    background-image: url(images/french-rose.svg);
+    background-repeat: no-repeat;
+}
+
+.memorylane{
+    background-image: url(images/memorylane.svg);
+    background-repeat: no-repeat;
+}
+
+.dynasty{
+    background-image: url(images/dynasty.svg);
+    background-repeat: no-repeat;
+}
+
+.bourbon-h3, .french-rose-h3, .memorylane-h3, .dynasty-h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.bourbon-p, .french-rose-p, .memorylane-p, .dynasty-p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: rgba(255, 146, 85, 1);
+}
+
+.bourbon-text {
+    padding: 374px 60px 32px 30px;
+}
+
+.frenchrose-text, .memorylane-text, .dynasty-text{
+    padding: 340px 60px 45px 30px;
+}
+
+footer {
+    background-color: #FF9255;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.footer-h2 {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding-top: 80px;
+    margin-left: 123px;
+    color: rgba(45, 45, 45, 1);
+}
+
+.footer-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 549px;
+    margin-left: 124px;
+    margin-top: 15px;
+}
+
+.footer-nav-a {
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 30px;
+}
+
+.contacts {
+    padding-bottom: 124px;
+}
+
+.navigation {
+    margin-right: 122px;
+    margin-top: 89px;
+}
+
+@media(max-width: 768px){
+  body{
+      text-align: center;
+  }
+}
+
